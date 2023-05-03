@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SquareResource" load_steps=2 format=3 uid="uid://d2xrtuv7gjk3e"]
+
+[ext_resource type="Script" path="res://resources/SquareResource.gd" id="1_nxfqn"]
+
+[resource]
+script = ExtResource("1_nxfqn")
+location_name = "Elemental Dominion"
+has_animals = false
+has_dragons = false
+has_structures = false
+is_subaqueous = false

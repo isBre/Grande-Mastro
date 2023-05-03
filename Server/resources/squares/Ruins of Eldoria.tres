@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SquareResource" load_steps=2 format=3 uid="uid://d16sfyosun4dw"]
+
+[ext_resource type="Script" path="res://resources/SquareResource.gd" id="1_ytles"]
+
+[resource]
+script = ExtResource("1_ytles")
+location_name = "Enchanted Oasis"
+has_animals = false
+has_dragons = false
+has_structures = false
+is_subaqueous = false

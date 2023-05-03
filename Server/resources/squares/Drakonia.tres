@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SquareResource" load_steps=2 format=3 uid="uid://bsvhkk4wtl5t"]
+
+[ext_resource type="Script" path="res://resources/SquareResource.gd" id="1_l4raw"]
+
+[resource]
+script = ExtResource("1_l4raw")
+location_name = "Beastia"
+has_animals = true
+has_dragons = false
+has_structures = false
+is_subaqueous = false

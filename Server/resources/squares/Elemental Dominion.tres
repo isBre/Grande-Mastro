@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SquareResource" load_steps=2 format=3 uid="uid://b0e5pv347i46u"]
+
+[ext_resource type="Script" path="res://resources/SquareResource.gd" id="1_oxpma"]
+
+[resource]
+script = ExtResource("1_oxpma")
+location_name = "Drakonia"
+has_animals = true
+has_dragons = true
+has_structures = false
+is_subaqueous = false

@@ -1,0 +1,119 @@
+[gd_scene load_steps=13 format=3 uid="uid://c4til8bbpxlv5"]
+
+[ext_resource type="Texture2D" uid="uid://bk6hq3r8q4etx" path="res://resources/HUD/Contour.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://bstld6upg8gvg" path="res://resources/HUD/Ped.png" id="2"]
+[ext_resource type="FontFile" uid="uid://djsm348l5fvqc" path="res://resources/fonts/Montserrat-BoldItalic.ttf" id="4"]
+[ext_resource type="Texture2D" uid="uid://7bvifu5ygexx" path="res://resources/HUD/EndTurn.png" id="5"]
+[ext_resource type="FontFile" uid="uid://dv5pjx617bpm4" path="res://resources/fonts/Montserrat-Bold.ttf" id="5_1ac8k"]
+[ext_resource type="FontFile" uid="uid://d1bjwxr31qqso" path="res://resources/fonts/Montserrat-MediumItalic.ttf" id="6"]
+[ext_resource type="FontFile" uid="uid://bl82r8xkx2n3d" path="res://resources/fonts/Montserrat-Italic.ttf" id="7_j15yk"]
+
+[sub_resource type="FontFile" id="2"]
+fallbacks = Array[Font]([ExtResource("4")])
+face_index = null
+embolden = null
+transform = null
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
+
+[sub_resource type="FontVariation" id="FontVariation_6ayqp"]
+base_font = ExtResource("5_1ac8k")
+spacing_top = -3
+spacing_bottom = -6
+
+[sub_resource type="LabelSettings" id="LabelSettings_338pq"]
+font = SubResource("FontVariation_6ayqp")
+font_size = 20
+
+[sub_resource type="FontFile" id="3"]
+fallbacks = Array[Font]([ExtResource("6")])
+face_index = null
+embolden = null
+transform = null
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
+
+[sub_resource type="LabelSettings" id="LabelSettings_cay8j"]
+font = ExtResource("7_j15yk")
+font_size = 14
+
+[node name="PlayerHUD" type="Control"]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 3
+anchor_right = 0.234
+anchor_bottom = 0.116
+offset_right = 0.431946
+offset_bottom = -0.167999
+
+[node name="Bg" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 262.0
+offset_bottom = 67.0
+color = Color(0, 0, 0, 0.784314)
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 2.0
+offset_right = 139.0
+offset_bottom = 74.0
+theme_override_constants/separation = 0
+
+[node name="Contour" type="TextureRect" parent="HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("1")
+expand_mode = 3
+
+[node name="Color" type="TextureRect" parent="HBoxContainer/Contour"]
+layout_mode = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource("2")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Stop" type="TextureRect" parent="HBoxContainer/Contour"]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 1.0
+offset_top = -32.0
+offset_right = 29.0
+offset_bottom = -5.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("5")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Texts" type="VBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 0
+alignment = 1
+
+[node name="Name" type="Label" parent="HBoxContainer/Texts"]
+layout_mode = 2
+theme_override_fonts/font = SubResource("2")
+text = "Name"
+label_settings = SubResource("LabelSettings_338pq")
+uppercase = true
+
+[node name="Square" type="Label" parent="HBoxContainer/Texts"]
+layout_mode = 2
+theme_override_fonts/font = SubResource("3")
+text = "Square"
+label_settings = SubResource("LabelSettings_cay8j")

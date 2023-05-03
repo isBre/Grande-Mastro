@@ -1,0 +1,33 @@
+[remap]
+
+importer="font_data_dynamic"
+type="FontFile"
+uid="uid://cr73k4rhgt2fq"
+path="res://.godot/imported/Friz Quadrata Regular.ttf-147cf4dbe90641716ed8547970d65f37.fontdata"
+
+[deps]
+
+source_file="res://resources/fonts/Friz Quadrata Regular.ttf"
+dest_files=["res://.godot/imported/Friz Quadrata Regular.ttf-147cf4dbe90641716ed8547970d65f37.fontdata"]
+
+[params]
+
+Rendering=null
+antialiasing=1
+generate_mipmaps=false
+multichannel_signed_distance_field=false
+msdf_pixel_range=8
+msdf_size=48
+allow_system_fallback=true
+force_autohinter=false
+hinting=1
+subpixel_positioning=1
+oversampling=0.0
+Fallbacks=null
+fallbacks=[]
+Compress=null
+compress=true
+preload=[]
+language_support={}
+script_support={}
+opentype_features={}

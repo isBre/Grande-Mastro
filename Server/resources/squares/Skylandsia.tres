@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SquareResource" load_steps=2 format=3 uid="uid://ce682tudhgy4y"]
+
+[ext_resource type="Script" path="res://resources/SquareResource.gd" id="1_n520k"]
+
+[resource]
+script = ExtResource("1_n520k")
+location_name = "Ruins of Eldoria"
+has_animals = false
+has_dragons = false
+has_structures = true
+is_subaqueous = false

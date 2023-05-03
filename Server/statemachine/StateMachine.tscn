@@ -1,0 +1,42 @@
+[gd_scene load_steps=11 format=3 uid="uid://qlg46r4ma03g"]
+
+[ext_resource type="Script" path="res://statemachine/statemachine.gd" id="1"]
+[ext_resource type="Script" path="res://statemachine/askrolldice.gd" id="2"]
+[ext_resource type="Script" path="res://statemachine/dicebuttonpressed.gd" id="4_g1ee2"]
+[ext_resource type="Script" path="res://statemachine/winningcondition.gd" id="5"]
+[ext_resource type="Script" path="res://statemachine/diceshowvalue.gd" id="5_wtu40"]
+[ext_resource type="Script" path="res://statemachine/pickcard.gd" id="6"]
+[ext_resource type="Script" path="res://statemachine/activatecard.gd" id="7"]
+[ext_resource type="Script" path="res://statemachine/endturn.gd" id="8"]
+[ext_resource type="Script" path="res://statemachine/endgame.gd" id="9"]
+[ext_resource type="Script" path="res://statemachine/initializegame.gd" id="10"]
+
+[node name="StateMachine" type="Node"]
+script = ExtResource("1")
+
+[node name="InitializeGame" type="Node" parent="."]
+script = ExtResource("10")
+
+[node name="AskRollDice" type="Node" parent="."]
+script = ExtResource("2")
+
+[node name="DiceButtonPressed" type="Node" parent="."]
+script = ExtResource("4_g1ee2")
+
+[node name="DiceShowValue" type="Node" parent="."]
+script = ExtResource("5_wtu40")
+
+[node name="PickCard" type="Node" parent="."]
+script = ExtResource("6")
+
+[node name="ActivateCard" type="Node" parent="."]
+script = ExtResource("7")
+
+[node name="EndTurn" type="Node" parent="."]
+script = ExtResource("8")
+
+[node name="WinningCondition" type="Node" parent="."]
+script = ExtResource("5")
+
+[node name="EndGame" type="Node" parent="."]
+script = ExtResource("9")

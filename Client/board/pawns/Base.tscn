@@ -1,0 +1,75 @@
+[gd_scene load_steps=10 format=3 uid="uid://dva4powuatv2w"]
+
+[ext_resource type="ArrayMesh" uid="uid://mjoko0uhd2dx" path="res://resources/objects/Pawn.obj" id="1_7vgmy"]
+[ext_resource type="Script" path="res://board/scripts/PlayerClass.gd" id="1_w3wv6"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_p1ojm"]
+resource_local_to_scene = true
+albedo_color = Color(0.894118, 0.517647, 0.607843, 1)
+metallic = 0.53
+metallic_specular = 0.0
+roughness = 0.36
+emission_energy_multiplier = 7.11
+
+[sub_resource type="BoxShape3D" id="1"]
+size = Vector3(3.605, 5.717, 3.51972)
+
+[sub_resource type="StandardMaterial3D" id="8"]
+vertex_color_use_as_albedo = true
+
+[sub_resource type="Curve" id="Curve_vvcrc"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.980519, 0.0363636), -3.16522, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_8p37q"]
+curve = SubResource("Curve_vvcrc")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_tgyhl"]
+emission_shape = 2
+emission_sphere_radius = 2.0
+direction = Vector3(0, 1, 0)
+spread = 20.0
+initial_velocity_min = 7.0
+initial_velocity_max = 10.0
+scale_min = 0.1
+scale_curve = SubResource("CurveTexture_8p37q")
+color = Color(0.184314, 0.184314, 0.184314, 1)
+hue_variation_min = -0.3
+hue_variation_max = 0.1
+collision_mode = 1
+collision_friction = 0.0
+collision_bounce = 0.0
+
+[sub_resource type="BoxMesh" id="7"]
+size = Vector3(0.5, 0.5, 0.5)
+
+[node name="Base" type="RigidBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+axis_lock_angular_x = true
+axis_lock_angular_y = true
+axis_lock_angular_z = true
+script = ExtResource("1_w3wv6")
+
+[node name="Base" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.25, 0, 0, 0, -1.09278e-08, 0.25, 0, -0.25, -1.09278e-08, 11, 3.5, 0)
+mesh = ExtResource("1_7vgmy")
+skeleton = NodePath("../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_p1ojm")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.775938, 0)
+shape = SubResource("1")
+
+[node name="Particles" type="GPUParticles3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.87291, 0)
+material_override = SubResource("8")
+cast_shadow = 0
+emitting = false
+amount = 50
+lifetime = 1.5
+one_shot = true
+explosiveness = 1.0
+collision_base_size = 0.0
+visibility_aabb = AABB(-5, -0.229, -5, 10, 0.458, 10)
+process_material = SubResource("ParticleProcessMaterial_tgyhl")
+draw_pass_1 = SubResource("7")

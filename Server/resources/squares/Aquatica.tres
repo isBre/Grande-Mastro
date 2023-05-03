@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="SquareResource" load_steps=2 format=3 uid="uid://bdaccopy6m3sc"]
+
+[ext_resource type="Script" path="res://resources/SquareResource.gd" id="1_3ufhc"]
+
+[resource]
+script = ExtResource("1_3ufhc")
+location_name = "Aquatica"
+has_animals = true
+has_dragons = false
+has_flowers = false
+has_structures = false
+is_subaqueous = false

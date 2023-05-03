@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="SquareResource" load_steps=2 format=3 uid="uid://chbrqcenend02"]
+
+[ext_resource type="Script" path="res://resources/SquareResource.gd" id="1_rc18p"]
+
+[resource]
+script = ExtResource("1_rc18p")
+location_name = "Skylandsia"
+has_animals = false
+has_dragons = false
+has_structures = false
+is_subaqueous = false

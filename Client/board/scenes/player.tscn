@@ -1,0 +1,78 @@
+[gd_scene load_steps=9 format=3 uid="uid://sk4ob631cxsr"]
+
+[ext_resource type="Script" path="res://board/scripts/PlayerClass.gd" id="3"]
+
+[sub_resource type="BoxShape3D" id="1"]
+size = Vector3(3.605, 5.717, 3.51972)
+
+[sub_resource type="StandardMaterial3D" id="8"]
+vertex_color_use_as_albedo = true
+
+[sub_resource type="Curve" id="Curve_jaqqb"]
+max_value = 1.5
+_data = [Vector2(0.00649351, 1.00909), 0.0, -0.338136, 0, 0, Vector2(0.577922, 0), -7.44546, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_4pdli"]
+curve = SubResource("Curve_jaqqb")
+
+[sub_resource type="ParticleProcessMaterial" id="6"]
+emission_shape = 2
+emission_sphere_radius = 1.0
+particle_flag_rotate_y = true
+direction = Vector3(0, 1, 0)
+initial_velocity_min = 5.0
+initial_velocity_max = 15.0
+angular_velocity_max = 129.44
+scale_min = 0.5
+scale_max = 1.5
+scale_curve = SubResource("CurveTexture_4pdli")
+color = Color(0.0784314, 0.0784314, 0.0784314, 1)
+hue_variation_min = -1.0
+hue_variation_max = 1.0
+turbulence_noise_scale = 6.98
+collision_mode = 2
+collision_use_scale = true
+
+[sub_resource type="BoxMesh" id="7"]
+size = Vector3(0.5, 0.5, 0.5)
+
+[sub_resource type="BoxMesh" id="BoxMesh_ulhba"]
+
+[node name="Player" type="RigidBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+axis_lock_angular_x = true
+axis_lock_angular_y = true
+axis_lock_angular_z = true
+script = ExtResource("3")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.775938, 0)
+shape = SubResource("1")
+
+[node name="Particles" type="GPUParticles3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.87291, 0)
+material_override = SubResource("8")
+cast_shadow = 0
+emitting = false
+amount = 50
+lifetime = 2.0
+one_shot = true
+explosiveness = 1.0
+collision_base_size = 0.0
+visibility_aabb = AABB(-5, -0.229, -5, 10, 0.458, 10)
+process_material = SubResource("6")
+draw_pass_1 = SubResource("7")
+
+[node name="Particles2" type="GPUParticles3D" parent="."]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, -0.10494, 0)
+visible = false
+material_override = SubResource("8")
+cast_shadow = 0
+amount = 50
+lifetime = 0.3
+preprocess = 0.01
+collision_base_size = 0.0
+visibility_aabb = AABB(-4, 0, -4, 8, 0.1, 8)
+process_material = SubResource("6")
+draw_pass_1 = SubResource("BoxMesh_ulhba")
