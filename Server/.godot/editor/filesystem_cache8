@@ -1,0 +1,49 @@
+2a60927148abd1d33b818b535e306557
+::res://::1683139108
+default_env.tres::Environment::6549915579601371201::1683137676::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1682775501::0::1::::<><>::
+icon.png::CompressedTexture2D::6168080347809668816::1676487635::1683139109::1::::<><>::
+::res://managers/::1683132131
+boardmanager.gd::GDScript::-1::1683038112::0::1::::<>Node<>::
+cardmanager.gd::GDScript::-1::1682105550::0::1::::<>Node<>::
+gamemanager.gd::GDScript::-1::1682692598::0::1::::<>Node<>::
+gamemanager.tscn::PackedScene::7306709890239803104::1683044362::0::1::::<><>::res://managers/boardmanager.gd<>res://managers/gamemanager.gd<>res://managers/playermanager.gd<>res://managers/cardmanager.gd
+playermanager.gd::GDScript::-1::1682763666::0::1::::<>Node<>::
+::res://resources/::1683136105
+SquareResource.gd::GDScript::-1::1683136105::0::1::::SquareResource<>Resource<>::
+::res://resources/cards/::1683137067
+Card 001.gd::GDScript::-1::1683136655::0::1::::<>Node<>::
+Card 002.gd::GDScript::-1::1683136655::0::1::::<>Node<>::
+Card 003.gd::GDScript::-1::1683136664::0::1::::<>Node<>::
+Card 004.gd::GDScript::-1::1683136735::0::1::::<>Node<>::
+Card 005.gd::GDScript::-1::1683136941::0::1::::<>Node<>::
+Card 006.gd::GDScript::-1::1683136941::0::1::::<>Node<>::
+Card 007.gd::GDScript::-1::1683137067::0::1::::<>Node<>::
+::res://resources/squares/::1683136267
+Aquatica.tres::Resource/SquareResource::2597112979811890406::1683136072::0::1::::<><>::res://resources/SquareResource.gd
+Beastia.tres::Resource/SquareResource::817047256203072292::1683136105::0::1::::<><>::res://resources/SquareResource.gd
+Drakonia.tres::Resource/SquareResource::108635742645871187::1683136114::0::1::::<><>::res://resources/SquareResource.gd
+Elemental Dominion.tres::Resource/SquareResource::4151248729957332870::1683136135::0::1::::<><>::res://resources/SquareResource.gd
+Enchanted Oasis.tres::Resource/SquareResource::9102908720980988748::1683136159::0::1::::<><>::res://resources/SquareResource.gd
+Frostaria.tres::Resource/SquareResource::5566822621174885843::1683136177::0::1::::<><>::res://resources/SquareResource.gd
+Ruins of Eldoria.tres::Resource/SquareResource::9049270813916093272::1683136191::0::1::::<><>::res://resources/SquareResource.gd
+Skylandsia.tres::Resource/SquareResource::5119645358496576466::1683136216::0::1::::<><>::res://resources/SquareResource.gd
+Sylvanethia.tres::Resource/SquareResource::5267288524008435905::1683136245::0::1::::<><>::res://resources/SquareResource.gd
+Titan's Peak.tres::Resource/SquareResource::6508146531809832473::1683136267::0::1::::<><>::res://resources/SquareResource.gd
+::res://server/::1683137676
+playersync.gd::GDScript::-1::1682704525::0::1::::<>Node<>::
+server.gd::GDScript::-1::1683021400::0::1::::<>Node<>::
+server.tscn::PackedScene::3759894055825116300::1683137676::0::1::::<><>::res://server/server.gd<>res://server/playersync.gd
+::res://statemachine/::1683137676
+activatecard.gd::GDScript::-1::1682974611::0::1::::<><>::
+askrolldice.gd::GDScript::-1::1682977960::0::1::::<><>::
+dicebuttonpressed.gd::GDScript::-1::1682974147::0::1::::<><>::
+diceshowvalue.gd::GDScript::-1::1683021667::0::1::::<><>::
+endgame.gd::GDScript::-1::1682974654::0::1::::<><>::
+endturn.gd::GDScript::-1::1682969237::0::1::::<><>::
+initializegame.gd::GDScript::-1::1682974715::0::1::::<><>::
+pickcard.gd::GDScript::-1::1683017863::0::1::::<><>::
+state.gd::GDScript::-1::1682339161::0::1::::<>Node<>::
+statemachine.gd::GDScript::-1::1683137676::0::1::::<>Node<>::
+StateMachine.tscn::PackedScene::1146147399302239170::1683044363::0::1::::<><>::res://statemachine/statemachine.gd<>res://statemachine/askrolldice.gd<>res://statemachine/dicebuttonpressed.gd<>res://statemachine/winningcondition.gd<>res://statemachine/diceshowvalue.gd<>res://statemachine/pickcard.gd<>res://statemachine/activatecard.gd<>res://statemachine/endturn.gd<>res://statemachine/endgame.gd<>res://statemachine/initializegame.gd
+winningcondition.gd::GDScript::-1::1682975768::0::1::::<><>::

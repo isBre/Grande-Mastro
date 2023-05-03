@@ -1,0 +1,85 @@
+bdbec74c6e5bd72edee867077d70896c
+::res://::1683139054
+default_env.tres::Environment::4388973491693021300::1683137568::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1683055143::0::1::::<><>::
+icon.png::CompressedTexture2D::5714142559844039644::1676487636::1683139056::1::::<><>::
+::res://board/::1683132161
+::res://board/pawns/::1683133743
+Base.tscn::PackedScene::8635016117398863768::1683133708::0::1::::<><>::uid://mjoko0uhd2dx<>res://board/scripts/PlayerClass.gd
+::res://board/scenes/::1683137568
+cardmanager.tscn::PackedScene::2213943188822162430::1683137567::0::1::::<><>::res://Scripts/GameScripts/CardManager.gd
+game.tscn::PackedScene::6865493024136879633::1683137568::0::1::::<><>::res://board/scripts/gamemanager.gd<>res://board/scripts/boardmanager.gd<>res://board/scripts/playermanager.gd<>uid://dv5pjx617bpm4<>uid://csuh272w5jn2c<>res://board/scripts/uimanager.gd<>uid://cjjqtx5t2ik4h<>uid://bjsr02yq4nbtd<>uid://bl82r8xkx2n3d<>res://board/scripts/visualmanager.gd<>uid://dkrudpnx6nkht<>uid://dotcg3d2mtkyg<>uid://btlqavmwdvk10
+player.tscn::PackedScene::1285828858649406145::1682765439::0::1::::<><>::res://board/scripts/PlayerClass.gd
+playerhud.tscn::PackedScene::6848048124773119644::1682713463::0::1::::<><>::uid://bk6hq3r8q4etx<>uid://bstld6upg8gvg<>uid://djsm348l5fvqc<>uid://7bvifu5ygexx<>uid://dv5pjx617bpm4<>uid://d1bjwxr31qqso<>uid://bl82r8xkx2n3d
+square.tscn::PackedScene::4723169450571106047::1683133876::0::1::::<><>::res://board/scripts/SquareClass.gd<>uid://blewcfcwl16p8
+::res://board/scripts/::1683137565
+boardmanager.gd::GDScript::-1::1682689772::0::1::::<>Node<>::
+gamemanager.gd::GDScript::-1::1683043921::0::1::::<>Node<>::
+infomanager.gd::GDScript::-1::1682894153::0::1::::<>Node3D<>::
+PlayerClass.gd::GDScript::-1::1682774533::0::1::::<>RigidBody3D<>::
+playermanager.gd::GDScript::-1::1683020952::0::1::::<>Node<>::
+SquareClass.gd::GDScript::-1::1683137565::0::1::::<>Node3D<>::
+uimanager.gd::GDScript::-1::1683133876::0::1::::<>Node<>::
+visualmanager.gd::GDScript::-1::1683044350::0::1::::<>Node3D<>::
+::res://menu/::1683137567
+menu.gd::GDScript::-1::1683133994::0::1::::<>Node<>::
+menu.tscn::PackedScene::2891916241269453776::1683137566::0::1::::<><>::res://menu/menu.gd<>uid://cjjqtx5t2ik4h
+room.tscn::PackedScene::6044703779092492435::1683137567::0::1::::<><>::res://menu/roomanager.gd
+roomanager.gd::GDScript::-1::1682763819::0::1::::<>Node<>::
+::res://resources/::1683135828
+Pawn Material.tres::StandardMaterial3D::7198362692278780814::1682762725::0::1::::<><>::
+wood.tres::StandardMaterial3D::7897465415535360673::1682711751::0::1::::<><>::uid://c7q6xebemgabr
+::res://resources/fonts/::1683134129
+ArchitectsDaughter32.tres::FontFile::-1::1679817968::0::1::::<><>::res://fonts/architect-s-daughter/ArchitectsDaughter.ttf
+Beaufort-Bold.ttf::FontFile::508525627759861787::1676938017::1683139055::1::::<><>::
+Beaufort-W01-Regular-1.ttf::FontFile::8414945126638926953::1676937837::1683139055::1::::<><>::
+BebasNeue-Regular.otf::FontFile::4041281686954978097::1517904288::1683139055::1::::<><>::
+Charcoal.otf::FontFile::3896598535438467508::1443755768::1683139055::1::::<><>::
+Friz Quadrata Regular.ttf::FontFile::6033831280864848830::1676935806::1683139055::1::::<><>::
+Montserrat-Black.ttf::FontFile::8244763440788577157::1677449505::1683139055::1::::<><>::
+Montserrat-BlackItalic.ttf::FontFile::4064387140185540740::1677449504::1683139055::1::::<><>::
+Montserrat-Bold.ttf::FontFile::8696087184286548601::1677449504::1683139055::1::::<><>::
+Montserrat-BoldItalic.ttf::FontFile::7828900624233006238::1677449506::1683139055::1::::<><>::
+Montserrat-ExtraBold.ttf::FontFile::3056357365705113925::1677449504::1683139055::1::::<><>::
+Montserrat-ExtraBoldItalic.ttf::FontFile::2069655379969235813::1677449505::1683139055::1::::<><>::
+Montserrat-ExtraLight.ttf::FontFile::679294263614664799::1677449505::1683139055::1::::<><>::
+Montserrat-ExtraLightItalic.ttf::FontFile::3564222659524317153::1677449505::1683139055::1::::<><>::
+Montserrat-Italic-VariableFont_wght.ttf::FontFile::652003595249273479::1675981112::1683139055::1::::<><>::
+Montserrat-Italic.ttf::FontFile::3228293916183731127::1677449505::1683139055::1::::<><>::
+Montserrat-Light.ttf::FontFile::5742714414500184860::1677449505::1683139055::1::::<><>::
+Montserrat-LightItalic.ttf::FontFile::2484105948332974728::1677449506::1683139055::1::::<><>::
+Montserrat-Medium.ttf::FontFile::8795282426723609489::1677449505::1683139055::1::::<><>::
+Montserrat-MediumItalic.ttf::FontFile::8986823339429323794::1677449506::1683139055::1::::<><>::
+Montserrat-Regular.ttf::FontFile::3522671525262280578::1677449505::1683139055::1::::<><>::
+Roboto-Black.ttf::FontFile::3168095086878065243::1682689839::1683139055::1::::<><>::
+Typewriter.tres::FontFile::-1::1679817968::0::1::::<><>::res://fonts/cmu-typewriter/Typewriter/cmuntt.ttf
+::res://resources/HUD/::1683139009
+Card@4x.png::CompressedTexture2D::6078003066833740916::1683135533::1683139068::1::::<><>::
+Contour.png::CompressedTexture2D::3152759920538496117::1676046866::1683139058::1::::<><>::
+EndTurn.png::CompressedTexture2D::2249397012278646053::1676046875::1683139058::1::::<><>::
+Logo Black@4x.png::CompressedTexture2D::8029497463951948962::1683135533::1683139063::1::::<><>::
+Logo White@4x.png::CompressedTexture2D::5424127017164354905::1683135533::1683139062::1::::<><>::
+Ped.png::CompressedTexture2D::3689717950617762352::1676046850::1683139058::1::::<><>::
+::res://resources/images/::1683139006
+Aquatica.jpg::CompressedTexture2D::8300598675442267304::1683133666::1683139058::1::::<><>::
+Beastia.jpg::CompressedTexture2D::1940251388524740039::1683133666::1683139057::1::::<><>::
+Drakonia.jpg::CompressedTexture2D::7997592216225491736::1683133666::1683139057::1::::<><>::
+Elemental Dominion.jpg::CompressedTexture2D::3062711272928607999::1683133666::1683139057::1::::<><>::
+Enchanted Oasis.jpg::CompressedTexture2D::6841826473831867202::1683133666::1683139057::1::::<><>::
+Frostaria.jpg::CompressedTexture2D::6673889004597457239::1683133666::1683139057::1::::<><>::
+Ruins of Eldoria.jpg::CompressedTexture2D::3949433567765416920::1683133666::1683139056::1::::<><>::
+Skylandsia.jpg::CompressedTexture2D::7798328843985084763::1683133666::1683139056::1::::<><>::
+Sylvanethia.jpg::CompressedTexture2D::5433262627394633903::1683133666::1683139056::1::::<><>::
+Titan's Peak.jpg::CompressedTexture2D::2197268998333184547::1683133666::1683139056::1::::<><>::
+::res://resources/objects/::1683139006
+Grass.jpg::CompressedTexture2D::3743689462527069517::1682713010::1683139059::1::::<><>::
+Pawn.obj::Mesh::861714194145930545::1676294641::1683139069::1::::<><>::
+Table 2.obj::Mesh::8181262664619623510::1682711620::1683139069::1::::<><>::
+wood-3.jpg::CompressedTexture2D::7053837919739986403::1682711680::1683139058::1::::<><>::
+wood-3.png::CompressedTexture2D::4214924568535174194::1682711681::1683139059::1::::<><>::
+::res://resources/sprites/::1683139006
+Logo White.png::CompressedTexture2D::1570185269773799257::1676740672::1683139056::1::::<><>::
+NErIQ.jpg::CompressedTexture2D::9181082229553509101::1676934038::1683139057::1::::<><>::
+SteWars.png::CompressedTexture2D::163248918128449577::1676932834::1683139057::1::::<><>::
+::res://server/::1683132168
+server.gd::GDScript::-1::1683043653::0::1::::<>Node<>::
