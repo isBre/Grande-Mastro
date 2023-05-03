@@ -1,8 +1,9 @@
 2a60927148abd1d33b818b535e306557
-::res://::1683139108
-default_env.tres::Environment::6549915579601371201::1683137676::0::1::::<><>::
+::res://::1683142802
+default_env.tres::Environment::6549915579601371201::1683142760::0::1::::<><>::
 export_presets.cfg::TextFile::-1::1682775501::0::1::::<><>::
 icon.png::CompressedTexture2D::6168080347809668816::1676487635::1683139109::1::::<><>::
+Logo White@4x.png::CompressedTexture2D::6746422738554225593::1683142802::1683142806::1::::<><>::
 ::res://managers/::1683132131
 boardmanager.gd::GDScript::-1::1683038112::0::1::::<>Node<>::
 cardmanager.gd::GDScript::-1::1682105550::0::1::::<>Node<>::
@@ -20,20 +21,20 @@ Card 005.gd::GDScript::-1::1683136941::0::1::::<>Node<>::
 Card 006.gd::GDScript::-1::1683136941::0::1::::<>Node<>::
 Card 007.gd::GDScript::-1::1683137067::0::1::::<>Node<>::
 ::res://resources/squares/::1683136267
-Aquatica.tres::Resource/SquareResource::2597112979811890406::1683136072::0::1::::<><>::res://resources/SquareResource.gd
-Beastia.tres::Resource/SquareResource::817047256203072292::1683136105::0::1::::<><>::res://resources/SquareResource.gd
-Drakonia.tres::Resource/SquareResource::108635742645871187::1683136114::0::1::::<><>::res://resources/SquareResource.gd
-Elemental Dominion.tres::Resource/SquareResource::4151248729957332870::1683136135::0::1::::<><>::res://resources/SquareResource.gd
-Enchanted Oasis.tres::Resource/SquareResource::9102908720980988748::1683136159::0::1::::<><>::res://resources/SquareResource.gd
-Frostaria.tres::Resource/SquareResource::5566822621174885843::1683136177::0::1::::<><>::res://resources/SquareResource.gd
-Ruins of Eldoria.tres::Resource/SquareResource::9049270813916093272::1683136191::0::1::::<><>::res://resources/SquareResource.gd
-Skylandsia.tres::Resource/SquareResource::5119645358496576466::1683136216::0::1::::<><>::res://resources/SquareResource.gd
-Sylvanethia.tres::Resource/SquareResource::5267288524008435905::1683136245::0::1::::<><>::res://resources/SquareResource.gd
-Titan's Peak.tres::Resource/SquareResource::6508146531809832473::1683136267::0::1::::<><>::res://resources/SquareResource.gd
-::res://server/::1683137676
+Aquatica.tres::Resource/Resource::2597112979811890406::1683136072::0::1::::<><>::res://resources/SquareResource.gd
+Beastia.tres::Resource/Resource::817047256203072292::1683136105::0::1::::<><>::res://resources/SquareResource.gd
+Drakonia.tres::Resource/Resource::108635742645871187::1683136114::0::1::::<><>::res://resources/SquareResource.gd
+Elemental Dominion.tres::Resource/Resource::4151248729957332870::1683136135::0::1::::<><>::res://resources/SquareResource.gd
+Enchanted Oasis.tres::Resource/Resource::9102908720980988748::1683136159::0::1::::<><>::res://resources/SquareResource.gd
+Frostaria.tres::Resource/Resource::5566822621174885843::1683136177::0::1::::<><>::res://resources/SquareResource.gd
+Ruins of Eldoria.tres::Resource/Resource::9049270813916093272::1683136191::0::1::::<><>::res://resources/SquareResource.gd
+Skylandsia.tres::Resource/Resource::5119645358496576466::1683136216::0::1::::<><>::res://resources/SquareResource.gd
+Sylvanethia.tres::Resource/Resource::5267288524008435905::1683136245::0::1::::<><>::res://resources/SquareResource.gd
+Titan's Peak.tres::Resource/Resource::6508146531809832473::1683136267::0::1::::<><>::res://resources/SquareResource.gd
+::res://server/::1683142760
 playersync.gd::GDScript::-1::1682704525::0::1::::<>Node<>::
 server.gd::GDScript::-1::1683021400::0::1::::<>Node<>::
-server.tscn::PackedScene::3759894055825116300::1683137676::0::1::::<><>::res://server/server.gd<>res://server/playersync.gd
+server.tscn::PackedScene::3759894055825116300::1683142760::0::1::::<><>::res://server/server.gd<>res://server/playersync.gd
 ::res://statemachine/::1683137676
 activatecard.gd::GDScript::-1::1682974611::0::1::::<><>::
 askrolldice.gd::GDScript::-1::1682977960::0::1::::<><>::

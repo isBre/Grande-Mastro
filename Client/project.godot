@@ -13,6 +13,7 @@ config_version=5
 config/name="Grande Mastro Client"
 run/main_scene="res://menu/menu.tscn"
 config/features=PackedStringArray("4.0")
+config/icon="res://resources/HUD/Logo White@4x.png"
 
 [autoload]
 

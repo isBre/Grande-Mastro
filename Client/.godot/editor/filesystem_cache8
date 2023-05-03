@@ -1,5 +1,5 @@
 bdbec74c6e5bd72edee867077d70896c
-::res://::1683139054
+::res://::1683143035
 default_env.tres::Environment::4388973491693021300::1683137568::0::1::::<><>::
 export_presets.cfg::TextFile::-1::1683055143::0::1::::<><>::
 icon.png::CompressedTexture2D::5714142559844039644::1676487636::1683139056::1::::<><>::
@@ -29,7 +29,7 @@ roomanager.gd::GDScript::-1::1682763819::0::1::::<>Node<>::
 ::res://resources/::1683135828
 Pawn Material.tres::StandardMaterial3D::7198362692278780814::1682762725::0::1::::<><>::
 wood.tres::StandardMaterial3D::7897465415535360673::1682711751::0::1::::<><>::uid://c7q6xebemgabr
-::res://resources/fonts/::1683134129
+::res://resources/fonts/::1683139056
 ArchitectsDaughter32.tres::FontFile::-1::1679817968::0::1::::<><>::res://fonts/architect-s-daughter/ArchitectsDaughter.ttf
 Beaufort-Bold.ttf::FontFile::508525627759861787::1676938017::1683139055::1::::<><>::
 Beaufort-W01-Regular-1.ttf::FontFile::8414945126638926953::1676937837::1683139055::1::::<><>::
@@ -53,14 +53,14 @@ Montserrat-MediumItalic.ttf::FontFile::8986823339429323794::1677449506::16831390
 Montserrat-Regular.ttf::FontFile::3522671525262280578::1677449505::1683139055::1::::<><>::
 Roboto-Black.ttf::FontFile::3168095086878065243::1682689839::1683139055::1::::<><>::
 Typewriter.tres::FontFile::-1::1679817968::0::1::::<><>::res://fonts/cmu-typewriter/Typewriter/cmuntt.ttf
-::res://resources/HUD/::1683139009
+::res://resources/HUD/::1683139068
 Card@4x.png::CompressedTexture2D::6078003066833740916::1683135533::1683139068::1::::<><>::
 Contour.png::CompressedTexture2D::3152759920538496117::1676046866::1683139058::1::::<><>::
 EndTurn.png::CompressedTexture2D::2249397012278646053::1676046875::1683139058::1::::<><>::
 Logo Black@4x.png::CompressedTexture2D::8029497463951948962::1683135533::1683139063::1::::<><>::
 Logo White@4x.png::CompressedTexture2D::5424127017164354905::1683135533::1683139062::1::::<><>::
 Ped.png::CompressedTexture2D::3689717950617762352::1676046850::1683139058::1::::<><>::
-::res://resources/images/::1683139006
+::res://resources/images/::1683139058
 Aquatica.jpg::CompressedTexture2D::8300598675442267304::1683133666::1683139058::1::::<><>::
 Beastia.jpg::CompressedTexture2D::1940251388524740039::1683133666::1683139057::1::::<><>::
 Drakonia.jpg::CompressedTexture2D::7997592216225491736::1683133666::1683139057::1::::<><>::
@@ -71,13 +71,13 @@ Ruins of Eldoria.jpg::CompressedTexture2D::3949433567765416920::1683133666::1683
 Skylandsia.jpg::CompressedTexture2D::7798328843985084763::1683133666::1683139056::1::::<><>::
 Sylvanethia.jpg::CompressedTexture2D::5433262627394633903::1683133666::1683139056::1::::<><>::
 Titan's Peak.jpg::CompressedTexture2D::2197268998333184547::1683133666::1683139056::1::::<><>::
-::res://resources/objects/::1683139006
+::res://resources/objects/::1683139069
 Grass.jpg::CompressedTexture2D::3743689462527069517::1682713010::1683139059::1::::<><>::
 Pawn.obj::Mesh::861714194145930545::1676294641::1683139069::1::::<><>::
 Table 2.obj::Mesh::8181262664619623510::1682711620::1683139069::1::::<><>::
 wood-3.jpg::CompressedTexture2D::7053837919739986403::1682711680::1683139058::1::::<><>::
 wood-3.png::CompressedTexture2D::4214924568535174194::1682711681::1683139059::1::::<><>::
-::res://resources/sprites/::1683139006
+::res://resources/sprites/::1683139057
 Logo White.png::CompressedTexture2D::1570185269773799257::1676740672::1683139056::1::::<><>::
 NErIQ.jpg::CompressedTexture2D::9181082229553509101::1676934038::1683139057::1::::<><>::
 SteWars.png::CompressedTexture2D::163248918128449577::1676932834::1683139057::1::::<><>::
